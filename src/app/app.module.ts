@@ -2,7 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MdButtonModule, MdCheckboxModule, MatListModule, MatToolbarModule, MatCardModule } from '@angular/material';
+import {
+  MdButtonModule,
+  MdCheckboxModule,
+  MatInputModule,
+  MatSelectModule,
+  MatListModule,
+  MatToolbarModule,
+  MatCardModule
+} from '@angular/material';
 import 'hammerjs';
 
 import { AppComponent } from './app.component';
@@ -18,6 +26,8 @@ import { AppComponent } from './app.component';
     ReactiveFormsModule,
     MdButtonModule,
     MdCheckboxModule,
+    MatInputModule,
+    MatSelectModule,
     MatListModule,
     MatToolbarModule,
     MatCardModule
@@ -27,6 +37,8 @@ import { AppComponent } from './app.component';
     ReactiveFormsModule,
     MdButtonModule,
     MdCheckboxModule,
+    MatInputModule,
+    MatSelectModule,
     MatListModule,
     MatToolbarModule,
     MatCardModule

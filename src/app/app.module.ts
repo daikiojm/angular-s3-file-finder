@@ -9,7 +9,10 @@ import {
   MatSelectModule,
   MatListModule,
   MatToolbarModule,
-  MatCardModule
+  MatCardModule,
+  MatExpansionModule,
+  MatTableModule,
+  MatIconModule
 } from '@angular/material';
 import 'hammerjs';
 
@@ -30,7 +33,10 @@ import { AppComponent } from './app.component';
     MatSelectModule,
     MatListModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule,
+    MatTableModule,
+    MatIconModule
   ],
   exports: [
     FormsModule,
@@ -41,7 +47,10 @@ import { AppComponent } from './app.component';
     MatSelectModule,
     MatListModule,
     MatToolbarModule,
-    MatCardModule
+    MatCardModule,
+    MatExpansionModule,
+    MatTableModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
